@@ -1,0 +1,77 @@
+body {
+	background-color:#F0CEA0; /* sets the background as an light orange color*/
+	color: rgb(30, 30, 30); /* sets the color of everything written to a dark grey close to black */
+	font-family: 'Roboto', sans-serif; /* sets the font of everything written to Roboto */
+	letter-spacing: 0.5px; /* adds a small space between letters */
+	text-align: center; /* centers every text */
+	font-size: 20px; /* sets the text to a given size */
+}
+h1 { /* caracteristics of the main title */
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-weight: 700; /* sets a level of thickness to the text */
+}
+h2 { /* caracteristics of the secondary titles */
+	letter-spacing: 1px;
+	font-size: 35px;
+	font-weight: 500;
+}
+h1,h2 { /* common caracteristics of both titles */
+	font-family: 'Ubuntu', sans-serif;
+}
+a { /* caracteristics of the links */
+	text-decoration: none; /* deletes all basic link decorations */
+}
+div { 
+	border-radius: 4px; /* sets a round effect to the boxes */
+	background: #FBFFF1; /* sets the boxes background color to ivory white */
+	width: 900px; /* sets the boxes' witdh to a given number */
+	margin: 50px auto; /* automatic left and right margins*/
+    padding: 70px; /* sets the boxes' padding to a given number */
+    box-shadow: 20px 19px 35px rgba(0 0 0 / 15%); /* adds shadows to the boxes */
+    margin-top: 30px; /* adds a margin at the top */
+}
+@media (max-width: 960px) {
+	div { 
+		width: 450px;
+	}
+}
+@media (max-width: 480px) {
+	div { 
+		width: 225px;
+	}
+}
+img { /* selects all images */
+	width: 300px; 
+	height: 300px; /* similar to width */
+	border-radius: 50%; /* images become circular */
+}
+.btn-blue {
+	background-color: rgb(0, 123, 182);
+	color: white;
+	padding: 20px 25px;
+	border-radius: 4px;
+	transition: ease-out 0.3s; /* creates a fade effect when hovering on links */
+}
+.btn-blue:hover {
+	background-color: rgb(50, 50, 50);
+}
+.list-inline {
+	list-style: none; /* removes the unwanted basic list style */
+	padding-left: 0px; /* removes the small space on the left due to the points being removed in order to center the list */
+}
+.list-inline li {
+	display: inline; /* sets all the logos/links of the list horizontally */
+	padding: 8px;
+}
+.list-inline i {
+	font-size: 50px;
+	transition: color 0.3s ease; /* creates a fade effect when hovering on links */
+}
+.list-inline a:hover { /* caracteristics of the images when you hover on them */
+	color: rgb(50, 50, 50);
+}	
+
+#introduction p { /* selects the small paragraph between my picture and the LinkedIn button */
+	margin-bottom: 40px; /* creates a small space between the paragraph and the LinkedIn button */
+}
